@@ -1,82 +1,64 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/places/MasFotos.jpg",
+            "artist": "Bad Bunny",
+            "genre": "Reggaeton / Latin Trap",
+            "albumTitle": "DEBI TERAR MAS FOTOS (2023)"
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/places/tylerbees.jpg",
+            "artist": "Tyler, The Creator",
+            "genre": "Hip-Hop / Alternative",
+            "albumTitle": "Flower Boy (2017)"
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "img/places/Currents.jpg",
+            "artist": "Tame Impala",
+            "genre": "Psychedelic Pop / Rock",
+            "albumTitle": "Currents (2015)"
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "img/places/harry'sHouse.webp",
+            "artist": "Harry Styles",
+            "genre": "Pop / Rock",
+            "albumTitle": "Harry's House (2022)"
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
+            "imgPath": "img/places/Channel.jpg",
+            "artist": "Frank Ocean",
+            "genre": "R&B / Neo Soul",
+            "albumTitle": "Channel Orange (2012)"
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "img/places/Happierthanever.webp",
+            "artist": "Billie Eilish",
+            "genre": "Pop / Alternative",
+            "albumTitle": "Happier Than Ever (2021)"
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgPath": "img/places/Didyouknow.webp",
+            "artist": "Lana Del Rey",
+            "genre": "Indie Pop / Alternative",
+            "albumTitle": "Did You Know There's a Tunnel Under Ocean Blvd (2023)"
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgPath": "img/places/illinoise.jpg",
+            "artist": "Sufjan Stevens",
+            "genre": "Folk / Indie",
+            "albumTitle": "Illinois (2005)"
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgPath": "img/places/Starboy.png",
+            "artist": "The Weeknd",
+            "genre": "R&B / Pop",
+            "albumTitle": "Starboy (2016)"
         },
         {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "img/places/Olivia-Rodrigo-SOUR.webp",
+            "artist": "Olivia Rodrigo",
+            "genre": "Pop / Indie Pop",
+            "albumTitle": "SOUR (2021)"
         }
-  ]
+    ]
 }
