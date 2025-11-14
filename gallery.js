@@ -8,6 +8,7 @@ $(document).ready(() => {
 
   // Call a function here to start the timer for the slideshow
   // (You will add startTimer later)
+  startTimer();
 
   // Select the moreIndicator button and add a click event to:
   // - toggle the rotation classes (rot90 and rot270)
@@ -81,8 +82,16 @@ function showPrevPhoto () {
 }
 
 // Starter code for the timer function
-function startTimer () {
-  // Create a timer to automatically call `showNextPhoto()` every mWaitTime milliseconds
-  // Consider using setInterval to achieve this functionality
-  // Hint: Make sure only one timer runs at a time
+ let slideshowTimer = null; // store the timer ID
+
+function startTimer() {
+  // Prevent multiple timers from running
+  if (slideshowTimer !== null) {
+    clearInterval(slideshowTimer);
+  }
+
+  // Call showNextPhoto() every mWaitTime milliseconds
+  slideshowTimer = setInterval(() => {
+    showNextPhoto();
+  }, mWaitTime);
 }
