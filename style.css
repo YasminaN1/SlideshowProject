@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Century Gothic', sans-serif;
-    background-image: url('../img/geometry.jpg');
+    background-image: url('img/places/clouds.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -12,9 +12,9 @@ body {
     max-width: 500px; /* Increased max-width for larger display */
     width: 90%; /* Keeps width responsive */
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(29, 165, 165, 0.9);
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+    box-shadow: 0px 4px 8px rgba(192, 45, 45, 0.2); /* Optional: Add shadow */
 }
 
 /* Holds the displayed photo */
@@ -34,10 +34,13 @@ body {
 
 /* Style for the title/banner */
 .banner {
-    font-size: 2rem; /* Increased font size for better readability */
+    font-size: 47px; /* Increased font size for better readability */
     font-weight: bold;
-    color: #333;
+    color: #a6dbfa;
     /* Optional: Customize the text color */
+    font-family: "moonblossom", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 /* Style for the 'More Content' indicator */
@@ -65,6 +68,9 @@ body {
     border-radius: 4px;
     color: #333;
     font-size: 1rem; /* Slightly larger text for readability */
+    font-family: "moonblossom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Style for each paragraph in details */
@@ -75,17 +81,20 @@ body {
 /* Add CSS styles to rotate the element 90deg
 Make it animate nicely. You'll need CSS3 for this */
 .rot90 {
-    /* Add 90-degree rotation */
+   transform: rotate(90deg);
+    transition: transform 0.3s ease;
 }
 
 /* Add CSS styles to rotate the element 180deg
 Make it animate nicely. You'll need CSS3 for this */
 .rot180 {
-    /* Add 180-degree rotation */
+   transform: rotate(180deg);
+    transition: transform 0.3s ease;
 }
 
 /* Add CSS styles to rotate the element 270deg
 Make it animate nicely. You'll need CSS3 for this */
 .rot270 {
-    /* Add 270-degree rotation */
+     transform: rotate(270deg);
+    transition: transform 0.3s ease;
 }
