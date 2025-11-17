@@ -1,6 +1,6 @@
 let mCurrentIndex = 0 // number: Tracks the current image index
 let mImages = [] // array: Holds GalleryImage objects
-const mUrl = 'images.json' // string/constant: URL to JSON data
+const mUrl = 'images.json' // string/consant: URL to JSON data
 const mWaitTime = 5000 // number/constant: Timer interval in milliseconds
 
 $(document).ready(() => { // function: runs when DOM is ready
@@ -14,9 +14,9 @@ $(document).ready(() => { // function: runs when DOM is ready
   });
 
   $("#nextPhoto").click(showNextPhoto); // function: click event to show next photo
-  $("#prevPhoto").click(showPrevPhoto); // function: click event to show previous photo
+  $("#prevPhoto").click(showPrevPhoto); // function: click vent to show previous photo
 
-  fetchJSON(); // function: load initial images from JSON
+  fetchJSON(); // function: load iniial images from JSON
 })
 
 // function: fetch JSON data and store in imgs
@@ -25,7 +25,7 @@ function fetchJSON() {
         url: mUrl, // string: JSON URL
         dataType: "json", // string: data type
         success: function (data) { // function: callback on success
-            mImages = data.images;  // array: store JSON array in imgs
+            mImages = data.images;  // array: storeJSON array in imgs
             swapPhoto();            // function: display first image
         },
         error: function (xhr, status, error) { // function: callback on error
@@ -38,9 +38,9 @@ function fetchJSON() {
 function swapPhoto() {
     if (mImages.length === 0) return; // check array length
 
-    let img = mImages[mCurrentIndex]; // object: current image object
+    let img = mImages[mCurrentIndex]; // object: curent image object
 
-    $("#photo").attr("src", img.imgPath); // jQuery function: update photo
+    $("#photo").attr("src", img.imgPath); // jQury function: update photo
     $(".artist").text("Artist: " + img.artist); //  update text
     $(".genre").text("Genre: " + img.genre);   //  update text
     $(".date").text("Album: " + img.albumTitle); // update text
@@ -68,7 +68,7 @@ function showPrevPhoto () {
     swapPhoto(); // function: update photo
 }
 
-let slideshowTimer = null; // variable: stores timer ID
+let slideshowTimer = null; // variable: stores timer id
 
 // function: start/restart the slideshow timer
 function startTimer() {
